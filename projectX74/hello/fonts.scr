@@ -1,0 +1,3 @@
+section Fonts {
+    foo_bar = TIMES.TTF (type=TTF);
+}

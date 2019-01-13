@@ -1,0 +1,158 @@
+Pre-game: World Building
+
+- Shuffle the land and temple decks; place facedown.
+- Draw 20 lands facedown and place them in a 4x5 grid
+- Turn lands face up
+- Roll a die to determine who goes first
+- After all 20 lands are placed, alternate placing the 5 water cards; water
+  cards must be placed adjacent to either an edge, or to another water card.
+  Water cards replace the existing land cards, which are removed from play.
+- After land and water cards are placed, alternate placing 4 Temple cards.
+  Temple cards can replace any land card, but not water cards.
+
+
+Game:
+
+Combat:
+Each unit has four scores, expressed as A/B/C/D.  These are:
+    A: Attack die
+    B: Counterattack/defense die
+    C: Hit Points
+    D: Action
+Combat for units is always handled one-on-one.  If multiple units are attacking
+a single unit, resolve the attacks one by one, in the order the attacker
+prefers. A unit may attack only adjacent units.
+
+To resolve combat, each player rolls a die specified by the card. The attacking
+player rolls his "A" die, the defending player his "B" die.  Whichever player
+rolls the higher score wins, and the difference between the winning and losing
+rolls is subtracted from the losing unit's HP (C).  If the losing unit's HP fall
+below 1, the unit is destroyed and leaves play.
+
+Some units are designated as "ranged attacks" with a range.  These units may
+attack units which are not adjacent to them, up to the range listed. They may
+attack any unit located on a card to which the unit could reach if the range
+was action points.  e.g. if the range is 2, the unit can attack any unit
+2 cards away in a line, or one card up and one card over. Ranged attacks are
+resolved normally, except that if there was any damage resulting from a
+counterattack (i.e. if the defending unit wins) the attacker takes no damage
+unless it was physically adjacent to the defender.
+
+
+Actions:
+Units can move in the cardinal directions (up, down, left, right.) They can
+move a number of squares equal to their movement score (D). An attack counts
+as an action.  For example, a unit with an Action score of 4 could move 3
+squares and attack once, move twice and attack twice, attack 4 times and not
+move, etc.  Movements and attacks can come in any order.  (e.g. A unit with a
+score of 4 can move once, attack once, and then move twice more, or can
+move once, attack once, move once, and attack again.)
+
+Units may not move onto or across water cards. Units may also not attack across
+water cards, unless they have ranged attacks.
+
+
+Mustering Units:
+A player may muster only one unit per turn. To muster a unit, the sum of the
+levels of all extant units (owned by any player) must be at least equal to one
+less than the new unit's level.  For example, if a new unit is level 8, the
+combined levels of all other units must be at least 7. If there are no units
+in play, the sum of all levels is obviously 0, and only level 1 units may be
+mustered.
+
+Units that have been mustered may not perform any actions for that turn, while
+they organize. Units may be mustered onto any land card controlled by the
+player. Mustering a unit onto a given land card does NOT bestow control of
+that land to the player. (If the unit remains on that card for the player's
+next turn, however, then control is switched as normal.)
+
+
+Controlling Lands:
+All lands start out neutral, turned sideways. As a player's unit ends the turn
+on a land, that land is turned toward that player (even if it is already turned
+toward another player) and the land is now controlled by the new player.
+Any lands that have effects are now determined respective to the controlling
+player.
+
+
+Winning the Game:
+Temples are treated as lands, except that they have special meaning. The goal
+of the game is to control all four Temples simultaneously. This allows you to
+summon the Gods and demand their blessing to make you ruler of the Isle.
+Or something.
+
+Each Temple has effects, much like lands, only typically more powerful. Some
+of them are negative to the holding player, though, so be careful of the order
+you conquer Temples in.
+
+Temples can change ownership just as lands do.
+
+
+Enchantments and Effects:
+Some cards are Enchantments that can be cast on lands or units, or that take
+effect globally.  Each such Enchantment will have a level; the Enchantment
+may only be cast if the number of all units controlled by the player is equal
+to or greater than the level of the Enchantment.  This is because Enchantments
+draw power from the lifeforce of your units... or, uh, something.
+
+Some Enchantments are designated "Fast", meaning that they can interrupt
+(intercept) other Enchantments (or Fast Enchantments.)
+
+
+Turn Mechanics:
+Players alternate turns. The turn phases are:
+1. Draw a card
+2. Play any Enchantments from hand (that you are able to)
+3. Muster any units from hand (that you are able to)
+4. Perform unit actions (move + attack)
+5. Discard down to 5 cards (if necessary)
+
+Phases 2 and 3 can be interleaved, but once Phase 4 begins no units may be
+mustered or or Enchantments cast.  Fast Enchantments may be cast at any time,
+even on other players' turns.
+
+
+Water Units:
+Some units are designated water units. These units may walk on, over, or
+stop on water cards. Some water units also gain benefits when they are standing
+on a water card. Water units essentially can treat water cards as land cards.
+
+Non-water units may not attack water units that are currently standing on
+water cards, but water units on water cards may attack non-water units on
+adjacent land cards.  As with ranged attacks, if a non-water unit defending
+against a water unit standing on a water card wins the attack, the water unit
+takes no damage. (If the non-water unit has ranged attacks, then combat is 
+resolved normally.) Any conflict between water units is resolved normally.
+
+
+Game Variants:
+Pick your units before hand, with a pre-agreed HP (level?) limit.  Field them
+as you see fit before play starts, remove all units from the draw deck, and
+play as normal.
+
+Use "house rules" for World Building stage; e.g. explicitly place lands, waters
+and Temples just because you want to play a given configuration.
+
+Standard Definitions:
+Entering a Land: Moving onto a land (via any method -- e.g. explicitly moving
+there, or being teleported there somehow) and stopping there for any reason,
+even if the unit later leaves the land again the same turn. After entering a
+land, units are said to be "residing" on the land.
+
+Leaving a Land: Moving off the land on which a unit is residing (whether
+manually/physically or via a card effect.)
+
+Traversing a Land: Moving into and *immediately* out of a land; this
+essentially means crossing a land via the use of a unit's action point. The
+unit is *not* considered to have Entered or Left the land; merely Traversed
+it. (Thus, any effects a land has that trigger on Entering or Leaving are
+not triggered by Traversing.)
+
+Gaining Control of a land: At the end of a given player's turn, all lands
+on which that player has units residing become controlled by the player
+(unless stated otherwise by a card.)
+
+Leaving Play: Mantras and Units can be persistent (whereas Fast Mantras
+cannot.)  When a Mantra expires or is cancelled, it is said to Leave Play.
+A unit that is killed in combat, killed by a Mantra, returned to a player's
+hand, etc. is said to have Left Play.

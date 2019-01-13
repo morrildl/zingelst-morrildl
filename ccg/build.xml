@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<project name="px74-ccg" default="all" basedir=".">
+
+    <property name="output.dir" location="${basedir}/out"/>
+    
+    <taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop">
+	<classpath>
+	    <pathelement location="${basedir}/lib/fop.jar"/>
+	    <pathelement location="${basedir}/lib/avalon.jar"/>
+	    <pathelement location="${basedir}/lib/batik.jar"/>
+	</classpath>
+    </taskdef>
+
+
+    <target name="enchants-fo" description="Converts enchant XML into FO">
+        <tstamp/>
+	<xslt in="${basedir}/enchants.xml"
+	      out="${output.dir}/enchants-fo.xml"
+	      style="${basedir}/enchants-2-fo.xsl" />
+    </target>
+    <target name="enchants-pdf" description="Converts enchant FO into PDF"
+	    depends="enchants-fo">
+        <tstamp/>
+        <mkdir dir="${output.dir}"/>
+	<fop format="application/pdf"
+	     fofile="${output.dir}/enchants-fo.xml"
+	     outfile="${output.dir}/enchants.pdf" />
+    </target>
+    <target name="enchants" description="Generates PDF for Enchants from XML"
+	    depends="enchants-pdf"/>
+
+
+    <target name="lands-fo" description="Converts land XML into FO">
+        <tstamp/>
+	<xslt in="${basedir}/lands.xml"
+	      out="${output.dir}/lands-fo.xml"
+	      style="${basedir}/lands-2-fo.xsl" />
+    </target>
+    <target name="lands-pdf" description="Converts land FO into PDF"
+	    depends="lands-fo">
+        <tstamp/>
+        <mkdir dir="${output.dir}"/>
+	<fop format="application/pdf"
+	     fofile="${output.dir}/lands-fo.xml"
+	     outfile="${output.dir}/lands.pdf" />
+    </target>
+    <target name="lands" description="Generates PDF for Lands from XML"
+	    depends="lands-pdf"/>
+
+
+    <target name="units-fo" description="Converts unit XML into FO">
+        <tstamp/>
+	<xslt in="${basedir}/units.xml"
+	      out="${output.dir}/units-fo.xml"
+	      style="${basedir}/units-2-fo.xsl" />
+    </target>
+    <target name="units-pdf" description="Converts unit FO into PDF"
+	    depends="units-fo">
+        <tstamp/>
+        <mkdir dir="${output.dir}"/>
+	<fop format="application/pdf"
+	     fofile="${output.dir}/units-fo.xml"
+	     outfile="${output.dir}/units.pdf"/>
+    </target>
+    <target name="units" description="Generates PDF for Units from XML"
+	    depends="units-pdf"/>
+
+    <target name="all" description="Generates PDFs for all cards"
+	    depends="units,enchants,lands"/>
+
+    <target name="clean" description="Removes all generated files">
+	<delete>
+	    <fileset dir="${output.dir}">
+		<include name="*.xml"/>
+		<include name="*.pdf"/>
+	    </fileset>
+	</delete>
+    </target>
+</project>
+

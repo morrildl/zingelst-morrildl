@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/css" href="cards.css"?>
+<card-list xmlns:xlink="http://www.w3.org/1999/xlink/">
+
+    <card type="unit">
+	<title>Hoplite Brigade</title>
+	<hit>6</hit>
+	<defense>6</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Hoplite Phalanx</title>
+	<hit>6</hit>
+	<defense>8</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Cavalry</title>
+	<hit>6</hit>
+	<defense>6</defense>
+	<actions>2</actions>
+	<life>6</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Archers</title>
+	<hit>6</hit>
+	<defense>4</defense>
+	<actions>1</actions>
+	<life>4</life>
+	<attribute>ranged attack</attribute>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Peltasts</title>
+	<hit>6</hit>
+	<defense>4</defense>
+	<actions>2</actions>
+	<life>4</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Martial Bard</title>
+	<hit>2</hit>
+	<defense>2</defense>
+	<actions>1</actions>
+	<life>4</life>
+	<picture/>
+	<notes>
+	Any units on same square gain 2 to attack and defense (e.g. 2/4
+	becomes 4/6)
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Trireme</title>
+	<hit>4</hit>
+	<defense>4</defense>
+	<actions>2</actions>
+	<life>8</life>
+	<attribute>water unit</attribute>
+	<picture/>
+	<notes>
+	Unit gains +1 one to attack &amp; defense rolls for each
+	friendly unit located on same land.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Marathon Messenger</title>
+	<hit>6</hit>
+	<defense>6</defense>
+	<actions>4</actions>
+	<life>4</life>
+	<picture/>
+	<notes>
+	If the unit ever uses all its APs in one turn, it dies at the end of
+	its turn.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Citadel Outwall</title>
+	<hit>0</hit>
+	<defense>8</defense>
+	<actions>0</actions>
+	<life>10</life>
+	<picture/>
+	<notes>
+	Unit is not played to board (i.e. use no marker); any unit attacking
+	player's Citadel instead attacks Outwall, unless attacking unit has
+	ranged attack.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Centaur Cavalry</title>
+	<hit>6</hit>
+	<defense>8</defense>
+	<actions>2</actions>
+	<life>8</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Cyclops Berserker</title>
+	<hit>10</hit>
+	<defense>6</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Satyr Scout</title>
+	<hit>4</hit>
+	<defense>4</defense>
+	<actions>3</actions>
+	<life>4</life>
+	<picture/>
+	<notes>
+	Any units on same square gain 2 to defense die.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Daedalus' Gunboat </title>
+	<hit>6</hit>
+	<defense>6</defense>
+	<actions>3</actions>
+	<life>8</life>
+	<attribute>water unit</attribute>
+	<attribute>ranged attack</attribute>
+	<picture/>
+	<notes>
+	Cannot carry other units.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Achilles </title>
+	<hit>12</hit>
+	<defense>12</defense>
+	<actions>1</actions>
+	<life>10</life>
+	<picture/>
+	<notes>
+	If Achilles rolls 1 or 2 on attack or defense, he can no longer move
+	(but may use APs on attacks)
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Ajax</title>
+	<hit>10</hit>
+	<defense>10</defense>
+	<actions>1</actions>
+	<life>10</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Agamemnon</title>
+	<hit>8</hit>
+	<defense>8</defense>
+	<actions>1</actions>
+	<life>8</life>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Odysseus</title>
+	<hit>8</hit>
+	<defense>8</defense>
+	<actions>2</actions>
+	<life>6</life>
+	<attribute>ranged attack</attribute>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Theseus</title>
+	<hit>6</hit>
+	<defense>6</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<picture/>
+	<notes>
+	As an instant ability, may return to square occupied previous turn
+	(if currently unoccupied by enemy); any events targetting Theseus are
+	aborted.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Autolycus</title>
+	<hit>4</hit>
+	<defense>2</defense>
+	<actions>2</actions>
+	<life>4</life>
+	<picture/>
+	<notes>
+	Autolycus may coexist on a card with an enemy unit, and cannot be
+	attacked by units (but can be counterattacked, or attacked by Mantras)
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Medea</title>
+	<hit>4</hit>
+	<defense>4</defense>
+	<actions>1</actions>
+	<life>4</life>
+	<picture/>
+	<notes>
+	If Medea rolls 3 or 4 on a counterattack, opposing unit instantly
+	suffers Medea's vengeance and dies.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Medusa</title>
+	<hit>6</hit>
+	<defense>4</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<picture/>
+	<notes>
+	If an opponent of Medusa ever rolls a 1, that unit is instantly turned
+	to stone and destroyed.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Harpies</title>
+	<hit>6</hit>
+	<defense>4</defense>
+	<actions>3</actions>
+	<life>4</life>
+	<picture/>
+	<notes>
+	Any units adjacent to the Harpies must move directly away on their
+	next turn to flee the stench.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Scylla</title>
+	<hit>8</hit>
+	<defense>4</defense>
+	<actions>2</actions>
+	<life>6</life>
+	<attribute>water unit</attribute>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Charybdis</title>
+	<hit>4</hit>
+	<defense>8</defense>
+	<actions>2</actions>
+	<life>6</life>
+	<attribute>water unit</attribute>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Hydra</title>
+	<hit>2</hit>
+	<defense>2</defense>
+	<actions>1</actions>
+	<life>8</life>
+	<picture/>
+	<notes>
+	Every turn the Hydra takes damage but survives, attack and defense
+	increase by 2.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Chimaera</title>
+	<hit>*</hit>
+	<defense>*</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<picture/>
+	<notes>
+	Chimaera takes on the attack/defense of any other unit in play; cannot
+	be mustered if no other units are in play.
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Sphinx</title>
+	<hit>2</hit>
+	<defense>6</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<picture/>
+	<notes>
+	When Sphinx defends against a unit, whichever unit takes damage as a
+	result is instantly killed regardless of remaining LP.
+	</notes>
+	<level>1</level>
+    </card>
+ 
+    <card type="unit">
+	<title>Orion</title>
+	<picture/>
+	<hit>6</hit>
+	<defense>6</defense>
+	<actions>1</actions>
+	<life>6</life>
+	<notes>
+	Unit may attack water units
+	</notes>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Athenian Brigade</title>
+	<picture/>
+	<hit>4</hit>
+	<defense>4</defense>
+	<actions>1</actions>
+	<life>4</life>
+	<notes/>
+	<level>1</level>
+    </card>
+
+    <card type="unit">
+	<title>Spearmen</title>
+	<picture/>
+	<hit>6</hit>
+	<defense>4</defense>
+	<actions>1</actions>
+	<life>4</life>
+	<notes/>
+	<level>1</level>
+    </card>
+
+</card-list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card-list>
+    <card title="Thunder" image_file="img.png">
+	<description>Boom!</description>
+        <attr name="comes-from" value="clouds, high overhead"/>
+        <attr name="kills-by">electricity</attr>
+    </card>
+    <card title="Avalanche" image_file="img.png">
+	<description>Crash!</description>
+        <attr name="consists-of" value="rocks"/>
+        <attr name="falls down">slopes</attr>
+        <attr name="stuck between" value="rock and hard place"/>
+    </card>
+    <card title="Earthquake" image_file="img.png">
+	<description>Rumble!</description>
+	<attr name="california" value="sink"/>
+    </card>
+</card-list>

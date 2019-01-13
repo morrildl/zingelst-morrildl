@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"><fo:layout-master-set><fo:simple-page-master master-name="my-page"><fo:region-body margin="0.75cm"/></fo:simple-page-master></fo:layout-master-set><fo:page-sequence master-reference="my-page"><fo:flow flow-name="xsl-region-body"><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Plains</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="1.51in" position="absolute"><fo:block/></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block>Mountains</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="1.51in" position="absolute"><fo:block>
+	Entering, Leaving, or Traversing this land costs 2 APs, instead of the
+	normal 1.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Valley</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="1.51in" position="absolute"><fo:block/></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>Farmland</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="5.02in" position="absolute"><fo:block>
+	Each time a unit ends its player's turn on this land, the unit recovers
+	1 LP (up to its maximum.)
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Dark Portal</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="5.02in" position="absolute"><fo:block>
+	Units entering, leaving, or traversing this land do not consume any
+	APs.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Homestead</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="5.02in" position="absolute"><fo:block/></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Hallowed Field</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="8.53in" position="absolute"><fo:block>
+	Units residing on this land may neither attack nor be attacked by
+	other units.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Field Hospital</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="8.53in" position="absolute"><fo:block>
+	Each unit residing on this land at the end of any player's turn gains
+	1 LP.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Desert</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="8.53in" position="absolute"><fo:block>
+	Any non-water unit which ends more than 3 consecutive turns (of any
+	player) on this land dies (regardless of its current life points.)
+	Any water unit that ends any player's turn on this land dies
+	immediately.
+	</fo:block></fo:block-container><fo:block break-after="page"/><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Open Ground</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="1.51in" position="absolute"><fo:block>
+	Any unit attacking another unit from this land gains +1 to its
+	attack roll.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block>High Ground</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="1.51in" position="absolute"><fo:block>
+	Any unit residing on this land gains +1 to its counterattack roll when
+	attacked by another unit.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Forest</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="1.51in" position="absolute"><fo:block>
+	Any unit with ranged attacks residing on this land gains +2 to all
+	attack or counterattack rolls.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>Guard Tower</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="5.02in" position="absolute"><fo:block>
+	Units owned by the player controlling Guard Tower located on the
+	adjacent lands gain +2 to attack and defense rolls.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Deeping Coombs</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="5.02in" position="absolute"><fo:block>
+	Terror prevents units from attacking or being attacked while residing
+	on this land. Any unit which can leave this land must do so on its
+	controlling player's next turn.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Marsh</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="5.02in" position="absolute"><fo:block>
+	Non-water units may not leave this land in the same turn in which
+	they enter it.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Poisoned Marsh</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="8.53in" position="absolute"><fo:block>
+	Non-water units take 1 point of damage each turn they end while
+	residing on this land.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Fortress Ruins</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="8.53in" position="absolute"><fo:block>
+	Units residing on this land suffer -2 to all combat rolls (attack and
+	defense.)
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Temple of Dionysus</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="8.53in" position="absolute"><fo:block>
+	The ceremonies at this Temple inebriate units residing here; they may
+	not attack and suffer -1 on counterattack rolls. Units that leave this
+	land are hungover and may not attack the round they leave.
+	</fo:block></fo:block-container><fo:block break-after="page"/><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Temple of Apollo</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="1.51in" position="absolute"><fo:block>
+	Apollo's grace speeds units who visit this Temple. Entering, Leaving,
+	and Traversing this land does not cost APs.  Units who Leave this land
+	gain 2 extra APs for the remainder turn in which they leave.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block>Temple of Athena</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="1.51in" position="absolute"><fo:block>
+	Units residing at this Temple are protected by Athena's Aegis and
+	gain +2 to their counterattack rolls.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Temple of Zeus</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="1.51in" position="absolute"><fo:block>
+	Lightning bolts randomly strike this Temple. Each time a unit Enters,
+	Leaves, or Traverses this Temple, it must defend against a d4 attack.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>House of Ill Repute</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="5.02in" position="absolute"><fo:block>
+	After leaving this land, units lose 1 LP per turn to social disease,
+	until they leave play. [Aimee says this card is funny but would be
+	a turnoff to female players since it implies that all armies are male.
+	Something to consider, at least.]
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Water</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="5.02in" position="absolute"><fo:block>
+	It's water. Dig it.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Water</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="5.02in" position="absolute"><fo:block>
+	It's water. Dig it.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Water</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="0.01in" top="8.53in" position="absolute"><fo:block>
+	It's water. Dig it.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Water</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="2.5199999999999996in" top="8.53in" position="absolute"><fo:block>
+	It's water. Dig it.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Water</fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.98in" width="2.48in" left="5.029999999999999in" top="8.53in" position="absolute"><fo:block>
+	It's water. Dig it.
+	</fo:block></fo:block-container></fo:flow></fo:page-sequence></fo:root>

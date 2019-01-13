@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deck name="Natural Disasters" shuffle="true">
+    <card title="Flood"/>
+    <card title="Avalanche"/>
+    <card title="Earthquake"/>
+</deck>

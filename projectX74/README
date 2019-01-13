@@ -1,0 +1,46 @@
+Using CVS:
+CVS is stored on a respository at obsequious.net.  To access it, you will
+need an obsequious.net account.  The CVSROOT will be:
+	$ export CVSROOT=:ext:${LOGNAME}@projectX74repo:/usr/local/var/cvs
+
+(Yes, projectX74repo is a fake hostname.   More on that later.)
+
+You will also need to use SSH to access the repository.  You can instruct CVS
+to use SSH instead of RSH via the CVS_RSH variable.  On Unix, the command
+looks like this, where "%" is your prompt:
+	% export CVS_RSH=`which cvs`
+	% cvs -d ${CVSROOT} checkout projectX74
+
+However, depending on where you check the project out from, this may change.
+SSH defaults to port 22, and CVS offers no way to pass the argument to SSH
+to change this.  Thus you will need to create a ~/.ssh/config file and
+create an alias -- which is where "projectX74repo" comes in.  You create an
+SSH alias for that, by using this ~/.ssh/config file snippet:
+
+Host projectX74repo
+	Hostname obsequious.net
+	Port 2401
+
+If you are behind Dan's firewall, replace those contents with:
+
+Host projectX74repo
+	Hostname 192.168.0.8
+	Port 22
+
+Using this technique allows you to change servers without changing the CVSROOT
+variable all the time, which is a PITA.
+
+
+As a final note, the :ext: CVS form requires you to enter a password or
+passphrase every time.  To avoid this, create an SSH public key and copy it
+to obsequious.net as you normally would.  Then use ssh-agent.
+
+The following demonstrates a full session:
+
+% exec ssh-agent bash
+% ssh-add
+[Enter psssphrase]
+% export CVS_ROOT=:ext:${LOGNAME}@projectX74repo:/usr/local/var/cvs
+% cvs checkout projectX74
+
+

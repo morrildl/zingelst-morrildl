@@ -1,0 +1,71 @@
+Notes on the new PX74:
+
+- general idea is a highly-fluid RTS with extensive UI features; calling it a
+  RTT (Real Time Tactical) sim.
+
+Game Map:
+- Netrek-like
+- Many planets
+- Each player starts off w/ a Homeworld and a dominion
+- Conquers planets a la Netrek
+- As players' planets are conquered, they drop out of the game
+
+Planets:
+- Add to the owning player's resources -- Capability Level
+- Have some defensive capability
+- Each planet has different contribution mix
+	- Military?
+	- Tech?
+	- Raw Materials?
+	- Respawn point?
+- Can have limited beef-ups (e.g. better defense, starport)
+- "Unique" or Strategic planets (e.g. capture a planet that gives you some
+  special tech or ability)
+
+Capability Level (CL):
+- Potentially multidimensional
+	- Tech level - Determines what weapons are available
+	- Military/People - Determines recharge rates, build rates, and size of
+	  ships
+	- Materials - Determines how many can be built, and may enable
+	  other things (e.g. alloys for armor)
+- Split into two: current vs. max
+	- current = max - allocated
+- CL max is the sum of CLs of all planets possessed by player
+- CL allocated is the sum of all CLs consumed by units extant for a player
+- When a unit build is started, resources consumed immediately up front
+- When a unit is destroyed, ticks count UP as unit destroyed unit's resources
+  are returned to the pool
+- CLs can be allocated (more or less permanently) for some things -- i.e. global
+  tech upgrades (planetary defense, etc.)
+
+Units:
+- Do not spawn immediately; have a build time in ticks
+- Subtract down from CL pool each tick until unit is done
+- Can be attacked, destroyed during construction
+	- (How? HP reduce til pop, but do they come off final HP, etc.?)
+- When units are destroyed, they get added to the death queue
+- Players can "decommission" units and reclaim their resources, but this
+  functions as just destroying the unit - penalty is delay for the resource 
+  regeneration time
+- Can be repaired (autorepair)
+
+UI:
+- Destroyed units are already re-enqueued when they are destroyed
+- Units are owned by the player who created them
+- Alliance mode shares resources, but NOT units
+- Also have a full co-op mode where 2 players play as one but can't de-ally
+- Ability to customize units
+	- add unit to queue
+	- during build, add a feature <- adds to build time
+		- e.g. giant beam cannon
+	- can store as a design
+- Possibly retrofit existing units
+	- unit drops back to build mode for duration of addition
+
+Tech tree:
+- Keyed on CL
+- When CL crosses the threshold/watermark, tech becomes available
+  (no StarCraft-like researching required)
+- Deployed tech not removed when CL falls below threshold, but new units
+  cannot be built with it

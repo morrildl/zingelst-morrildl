@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/css" href="cards.css"?>
+<card-list xmlns:xlink="http://www.w3.org/1999/xlink/">
+
+    <card type="enchantment">
+	<title>Aegis</title>
+	<level>3</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Add 3 to unit's counterattack rolls.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Sirens' Nest</title>
+	<level>5</level>
+	<target>land</target>
+	<picture/>
+	<notes>
+	All opposing units that Traverse or Enter any adjacent land must move
+	to the land with the Nest; if the Nest land is occupied by an opposing
+	enemy, the unit must use all its available APs to attack an enemy in
+	the land in an attempt to enter (attacker may choose)
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Iron Hoplon</title>
+	<level>1</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Add 1 to unit's current and max LP.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Oedipus' Curse</title>
+	<level>6</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Unit puts out its eyes in despair: its attack and defense dice both
+	drop to 2, or are unchanged if already lower than 2.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Strength of Herakles</title>
+	<level>3</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Target's attack die increases by 4.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Fate of Prometheus</title>
+	<level>4</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Target unit loses 1 LP per turn until it dies.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Medea's Spell</title>
+	<level>4</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Target unit gains +4 to current and max LP.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Archimedes' Screw</title>
+	<level>3</level>
+	<target>land</target>
+	<picture/>
+	<notes>
+	Changes any land to a water land. Any effects or Mantras that the land
+	might already have remain in effect, but the land is otherwise handled
+	as if it were a water. Any non-water units residing on the land are
+	instantly killed.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Drought</title>
+	<level>2</level>
+	<target>land</target>
+	<picture/>
+	<notes>
+	Changes target water land into a normal land. Any other effects or
+	Mantras remain in effect, but the land is otherwise handled as if it
+	were a normal land.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Narcissism</title>
+	<level>2</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	At the beginning of each turn, target unit defends against itself.  No
+	damage is taken, but if the roll did not result in a counterattack,
+	unit spends the turn staring at its reflection and may not
+	use APs that turn.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Pyrrhic Victory</title>
+	<level>2</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Each time target unit does damage in an attack or a counterattack,
+	subtract one from its current LP.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Greek Fire</title>
+	<level>4</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Unit takes 4 points of damage per turn until it Enters or Traverses a
+	water card, or Enters a normal land adjacent to a water card.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Hermes' Favor</title>
+	<level>1</level>
+	<target>land</target>
+	<picture/>
+	<notes>
+	Units mustered on target land muster immediately (no muster delay.)
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Poseidon's Trident</title>
+	<level>2</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	Target unit gains +1 to attack rolls and becomes a water unit.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Spartan Judgement</title>
+	<level>3</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	If the unit ever has less than or equal to half its max LP, it is
+	immediately executed.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Encroaching Desert</title>
+	<level>1</level>
+	<target>unit</target>
+	<picture/>
+	<notes>
+	All water cards in play become normal lands until this Mantra is
+	removed from play. Cards that create water lands or cards may be played,
+	but will have no effect until this Mantra is removed from play.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Persephone's Sacrifice</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	The player using this Mantra sacrifices one unit under his control
+	and removes it from play. That unit's current LP are added to the
+	current LP of any other unit in play.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Charon's Fee</title>
+	<level>3</level>
+	<picture/>
+	<notes>Target player must discard three cards at random.</notes>
+    </card>
+
+    <card type="instant">
+	<title>Wrath of Zeus</title>
+	<level>5</level>
+	<picture/>
+	<notes>
+	Target unit defends against d20; ignore any counterattack.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Hermes' Footsteps</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Immediately move target unit 1 square in any cardinal direction.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Hera's Jealousy</title>
+	<level>4</level>
+	<picture/>
+	<notes>
+	Unit is removed from play, and the card is returned to the controlling
+	player's hand.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Perseus' Gift</title>
+	<level>4</level>
+	<picture/>
+	<notes>
+	Target unit defends against d6, or is turned to stone and destroyed.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Archimedes' Mirror</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Target unit defends against d6; ignore counterattack damage.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Blessing of the Phoenix</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Player reciting this Mantra may select any discarded unit and add it to
+	his hand.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Trojan Horse</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Played during an attack: attacker ignores any counterattack that might
+	result.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Benediction of Ares</title>
+	<level>2</level>
+	<picture/>
+	<notes>
+	Add d6 to an attacking unit's attack score, or to a defending unit's
+	defense score for the duration of the skirmish.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Orpheus' Song</title>
+	<level>2</level>
+	<picture/>
+	<notes>
+	No units may use APs for remainder of current turn and entire next turn.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Hippocratic Treatment</title>
+	<level>3</level>
+	<picture/>
+	<notes>
+	Unit's current LP are restored to its full LP.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title></title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Unit becomes confused and may not use any APs on its player's next
+	turn.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Eurythna</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Unit defends against itself (own attack vs. own defense); if this
+	results in counterdamage, unit is adjudged a failure and is destroyed.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Commend to Hades</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Remove any land from play; a gap remains in the board thereafter. All
+	units on the land are destroyed.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Fate of Atlantis</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Each player chooses a unit in play, if he has any; all other units are
+	destroyed. Remove all lands from play, restore them to the land deck,
+	reshuffle, and produce a new landscape as if the game were starting
+	anew. All land enchantments are discarded. Citadel LP and surviving
+	unit's current LP are preserved.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Demiurgic Whim</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Swap any land with a spare land from the land deck.  If no extra lands
+	are available, swap any two lands. All creature locations and
+	enchantments remain in play. Ownership remain unchanged by position.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Intercept Mantra</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Blocks an enchantment or instant being cast.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Dispel Mantra</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Removes a successfully cast enchantment from play.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Redirect Mantra</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Alters the target of any Mantra being cast.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Demeter's Whim</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Take control of any land that has no units on it.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Eye of Argus</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Examine target player's hand.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Olympean Upheaval</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Remove all enchantments from play.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Olympic Challenge</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Each player selects up to three units. Roll each unit's attack die 
+	and take the sum. The player with the lowest attack sum must dicard 
+	three cards at random.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Athenian Wisdom</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Player may draw an extra card this turn.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Athenian Disfavor</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Target player discards 1d4 cards at random.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Aura of Poseiden</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Target unit becomes a water unit.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Cupid's Curse</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Player takes control of target unit.
+	</notes>
+    </card>
+
+    <card type="instant">
+	<title>Boon of the Gods</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Remove one enchantment or unit from play or alternatively, 
+	place one unit or enchantment from the discard pile into your hand.
+	</notes>
+    </card>
+
+    <card type="enchantment">
+	<title>Apollo's Protection</title>
+	<level>1</level>
+	<picture/>
+	<notes>
+	Remove all enchantments from target unit. No further enchantments can 
+	be played on this unit until Apollo's Protection is removed.
+	</notes>
+    </card>
+
+</card-list>

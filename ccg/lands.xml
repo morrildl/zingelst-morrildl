@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/css" href="cards.css"?>
+<card-list xmlns:xlink="http://www.w3.org/1999/xlink/">
+
+    <card type="land">
+	<title>Plains</title>
+	<picture/>
+	<notes/>
+    </card>
+
+    <card type="land">
+	<title>Mountains</title>
+	<picture/>
+	<notes>
+	Entering, Leaving, or Traversing this land costs 2 APs, instead of the
+	normal 1.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Valley</title>
+	<picture/>
+	<notes/>
+    </card>
+
+    <card type="land">
+	<title>Farmland</title>
+	<picture/>
+	<notes>
+	Each time a unit ends its player's turn on this land, the unit recovers
+	1 LP (up to its maximum.)
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Dark Portal</title>
+	<picture/>
+	<notes>
+	Units entering, leaving, or traversing this land do not consume any
+	APs.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Homestead</title>
+	<picture/>
+	<notes/>
+    </card>
+
+    <card type="land">
+	<title>Hallowed Field</title>
+	<picture/>
+	<notes>
+	Units residing on this land may neither attack nor be attacked by
+	other units.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Field Hospital</title>
+	<picture/>
+	<notes>
+	Each unit residing on this land at the end of any player's turn gains
+	1 LP.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Desert</title>
+	<picture/>
+	<notes>
+	Any non-water unit which ends more than 3 consecutive turns (of any
+	player) on this land dies (regardless of its current life points.)
+	Any water unit that ends any player's turn on this land dies
+	immediately.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Open Ground</title>
+	<picture/>
+	<notes>
+	Any unit attacking another unit from this land gains +1 to its
+	attack roll.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>High Ground</title>
+	<picture/>
+	<notes>
+	Any unit residing on this land gains +1 to its counterattack roll when
+	attacked by another unit.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Forest</title>
+	<picture/>
+	<notes>
+	Any unit with ranged attacks residing on this land gains +2 to all
+	attack or counterattack rolls.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Guard Tower</title>
+	<picture/>
+	<notes>
+	Units owned by the player controlling Guard Tower located on the
+	adjacent lands gain +2 to attack and defense rolls.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Deeping Coombs</title>
+	<picture/>
+	<notes>
+	Terror prevents units from attacking or being attacked while residing
+	on this land. Any unit which can leave this land must do so on its
+	controlling player's next turn.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Marsh</title>
+	<picture/>
+	<notes>
+	Non-water units may not leave this land in the same turn in which
+	they enter it.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Poisoned Marsh</title>
+	<picture/>
+	<notes>
+	Non-water units take 1 point of damage each turn they end while
+	residing on this land.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Fortress Ruins</title>
+	<picture/>
+	<notes>
+	Units residing on this land suffer -2 to all combat rolls (attack and
+	defense.)
+	</notes>
+    </card>
+
+    <card type="temple">
+	<title>Temple of Dionysus</title>
+	<picture/>
+	<notes>
+	The ceremonies at this Temple inebriate units residing here; they may
+	not attack and suffer -1 on counterattack rolls. Units that leave this
+	land are hungover and may not attack the round they leave.
+	</notes>
+    </card>
+
+    <card type="temple">
+	<title>Temple of Apollo</title>
+	<picture/>
+	<notes>
+	Apollo's grace speeds units who visit this Temple. Entering, Leaving,
+	and Traversing this land does not cost APs.  Units who Leave this land
+	gain 2 extra APs for the remainder turn in which they leave.
+	</notes>
+    </card>
+
+    <card type="temple">
+	<title>Temple of Athena</title>
+	<picture/>
+	<notes>
+	Units residing at this Temple are protected by Athena's Aegis and
+	gain +2 to their counterattack rolls.
+	</notes>
+    </card>
+
+    <card type="temple">
+	<title>Temple of Zeus</title>
+	<picture/>
+	<notes>
+	Lightning bolts randomly strike this Temple. Each time a unit Enters,
+	Leaves, or Traverses this Temple, it must defend against a d4 attack.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>House of Ill Repute</title>
+	<picture/>
+	<notes>
+	After leaving this land, units lose 1 LP per turn to social disease,
+	until they leave play. [Aimee says this card is funny but would be
+	a turnoff to female players since it implies that all armies are male.
+	Something to consider, at least.]
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Water</title>
+	<picture/>
+	<notes>
+	It's water. Dig it.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Water</title>
+	<picture/>
+	<notes>
+	It's water. Dig it.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Water</title>
+	<picture/>
+	<notes>
+	It's water. Dig it.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Water</title>
+	<picture/>
+	<notes>
+	It's water. Dig it.
+	</notes>
+    </card>
+
+    <card type="land">
+	<title>Water</title>
+	<picture/>
+	<notes>
+	It's water. Dig it.
+	</notes>
+    </card>
+</card-list>

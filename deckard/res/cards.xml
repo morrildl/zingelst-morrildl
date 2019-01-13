@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card-list>
+    <card title="Volcano" image_file="img.png">
+	<description>Foosh!</description>
+        <attr name="underground" value="magma"/>
+        <attr name="flowing">lava</attr>
+    </card>
+    <card title="Flood" image_file="img.png">
+	<description>Splash!</description>
+        <attr name="contains" value="hydrogen hydroxide"/>
+        <attr name="also-contains">fish</attr>
+        <attr name="no-earplugs">swimmer's ear.  Damnit!</attr>
+    </card>
+    <card title="Locusts" image_file="img.png">
+	<description>Buzz!</description>
+        <attr name="eats" value="everything made of plant"/>
+        <attr name="also-eats">dead things</attr>
+    </card>
+    <card title="Tornado" image_file="img.png">
+	<description>Wooosh!</description>
+	<attr name="Wind speed">45</attr>
+    </card>
+</card-list>

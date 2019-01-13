@@ -1,0 +1,3133 @@
+%!PS-Adobe-3.0
+%%Creator: FOP 0.20.5
+%%Pages: (atend)
+%%DocumentProcessColors: Black
+%%DocumentSuppliedResources: procset FOPFonts
+%%EndComments
+%%BeginDefaults
+%%EndDefaults
+%%BeginProlog
+%%EndProlog
+%%BeginSetup
+%%BeginResource: procset FOPprocs
+%%Title: Utility procedures
+/FOPprocs 20 dict dup begin
+/bd{bind def}bind def
+/ld{load def}bd
+/M/moveto ld
+/RM/rmoveto ld
+/t/show ld
+/A/ashow ld
+/cp/closepath ld
+/re {4 2 roll M
+1 index 0 rlineto
+0 exch rlineto
+neg 0 rlineto
+cp } bd
+/ux 0.0 def
+/uy 0.0 def
+/F {
+  /Tp exch def
+  /Tf exch def
+  Tf findfont Tp scalefont setfont
+  /cf Tf def  /cs Tp def  /cw ( ) stringwidth pop def
+} bd
+/ULS {currentpoint /uy exch def /ux exch def} bd
+/ULE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add moveto  Tcx uy To add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/OLE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs add moveto Tcx uy To add cs add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/SOE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs 10 mul 26 idiv add moveto Tcx uy To add cs 10 mul 26 idiv add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+end def
+%%EndResource
+%%BeginResource: procset FOPFonts
+%%Title: Font setup (shortcuts) for this file
+/FOPFonts 100 dict dup begin
+/F14 /ZapfDingbats def
+/F5 /Times-Roman def
+/F8 /Times-BoldItalic def
+/F1 /Helvetica def
+/F6 /Times-Italic def
+/F11 /Courier-Bold def
+/F2 /Helvetica-Oblique def
+/F7 /Times-Bold def
+/F3 /Helvetica-Bold def
+/F13 /Symbol def
+/F10 /Courier-Oblique def
+/F4 /Helvetica-BoldOblique def
+/F9 /Courier def
+/F12 /Courier-BoldOblique def
+end def
+%%EndResource
+/WinAnsiEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one
+/two /three /four /five /six
+/seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at
+/A /B /C /D /E
+/F /G /H /I /J
+/K /L /M /N /O
+/P /Q /R /S /T
+/U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum
+/underscore /quoteleft /a /b /c
+/d /e /f /g /h
+/i /j /k /l /m
+/n /o /p /q /r
+/s /t /u /v /w
+/x /y /z /braceleft /bar
+/braceright /asciitilde /bullet /Euro /bullet
+/quotesinglbase /florin /quotedblbase /ellipsis /dagger
+/daggerdbl /circumflex /perthousand /Scaron /guilsinglleft
+/OE /bullet /Zcaron /bullet /bullet
+/quoteleft /quoteright /quotedblleft /quotedblright /bullet
+/endash /emdash /asciitilde /trademark /scaron
+/guilsinglright /oe /bullet /zcaron /Ydieresis
+/space /exclamdown /cent /sterling /currency
+/yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /hyphen /registered
+/macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /periodcentered /cedilla
+/onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex
+/Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis
+/multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave
+/aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex
+/otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn
+/ydieresis
+] def
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Roman exch definefont pop
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-BoldItalic exch definefont pop
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica exch definefont pop
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Italic exch definefont pop
+/Courier-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Bold exch definefont pop
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Oblique exch definefont pop
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Bold exch definefont pop
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Bold exch definefont pop
+/Courier-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Oblique exch definefont pop
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-BoldOblique exch definefont pop
+/Courier findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier exch definefont pop
+/Courier-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-BoldOblique exch definefont pop
+%%BeginResource: procset EPSprocs
+%%Title: EPS encapsulation procs
+/BeginEPSF { %def
+/b4_Inc_state save def         % Save state for cleanup
+/dict_count countdictstack def % Count objects on dict stack
+/op_count count 1 sub def      % Count objects on operand stack
+userdict begin                 % Push userdict on dict stack
+/showpage { } def              % Redefine showpage, { } = null proc
+0 setgray 0 setlinecap         % Prepare graphics state
+1 setlinewidth 0 setlinejoin
+10 setmiterlimit [ ] 0 setdash newpath
+/languagelevel where           % If level not equal to 1 then
+{pop languagelevel             % set strokeadjust and
+1 ne                           % overprint to their defaults.
+{false setstrokeadjust false setoverprint
+} if
+} if
+} bind def
+/EndEPSF { %def
+count op_count sub {pop} repeat            % Clean up stacks
+countdictstack dict_count sub {end} repeat
+b4_Inc_state restore
+} bind def
+%%EndResource
+FOPprocs begin
+FOPFonts begin
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 0 0 576 792
+%%BeginPageSetup
+0.001 0.001 scale
+%%EndPageSetup
+newpath
+20539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+F1 12000 F
+(Hoplite) t
+62659 760205 M
+(Brigade) t
+newpath
+21979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+(Level:) t
+57331 760205 M
+(1) t
+67339 760205 M
+(\(6-6/1-6\)) t
+newpath
+20539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 743825 M
+22699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 743825 M
+(Picture) t
+96727 743825 M
+(Here) t
+newpath
+200539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 760205 M
+381978 760205 M
+(Hoplite) t
+422658 760205 M
+(Phalanx) t
+newpath
+201979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 760205 M
+201979 760205 M
+(Level:) t
+237331 760205 M
+(1) t
+247339 760205 M
+(\(6-8/1-6\)) t
+newpath
+200539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 743825 M
+202699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 743825 M
+(Picture) t
+276727 743825 M
+(Here) t
+newpath
+380539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 760205 M
+741978 760205 M
+(Cavalry) t
+newpath
+381979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 760205 M
+381979 760205 M
+(Level:) t
+417331 760205 M
+(1) t
+427339 760205 M
+(\(6-6/2-6\)) t
+newpath
+380539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 743825 M
+382699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 743825 M
+(Picture) t
+456727 743825 M
+(Here) t
+newpath
+20539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 256206 M
+21979 256206 M
+(Archers) t
+newpath
+21979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 508205 M
+21979 508205 M
+(Level:) t
+57331 508205 M
+(1) t
+67339 508205 M
+(\(6-4/1-4\)) t
+newpath
+20539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 491825 M
+22699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 491825 M
+(Picture) t
+96727 491825 M
+(Here) t
+newpath
+200539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 256206 M
+381978 256206 M
+(Peltasts) t
+newpath
+201979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 508205 M
+201979 508205 M
+(Level:) t
+237331 508205 M
+(1) t
+247339 508205 M
+(\(6-4/2-4\)) t
+newpath
+200539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 491825 M
+202699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 491825 M
+(Picture) t
+276727 491825 M
+(Here) t
+newpath
+380539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 256206 M
+741978 256206 M
+(Martial) t
+781314 256206 M
+(Bard) t
+newpath
+381979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 508205 M
+381979 508205 M
+(Level:) t
+417331 508205 M
+(1) t
+427339 508205 M
+(\(2-2/1-4\)) t
+newpath
+380539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 491825 M
+382699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 491825 M
+(Picture) t
+456727 491825 M
+(Here) t
+newpath
+20539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 -247794 M
+21979 -247794 M
+(Trireme) t
+newpath
+21979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 256205 M
+21979 256205 M
+(Level:) t
+57331 256205 M
+(1) t
+67339 256205 M
+(\(4-4/2-8\)) t
+newpath
+20539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 239825 M
+22699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 239825 M
+(Picture) t
+96727 239825 M
+(Here) t
+newpath
+200539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 -247794 M
+381978 -247794 M
+(Marathon) t
+436002 -247794 M
+(Messenger) t
+newpath
+201979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 256205 M
+201979 256205 M
+(Level:) t
+237331 256205 M
+(1) t
+247339 256205 M
+(\(6-6/4-4\)) t
+newpath
+200539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 239825 M
+202699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 239825 M
+(Picture) t
+276727 239825 M
+(Here) t
+newpath
+380539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 -247794 M
+741978 -247794 M
+(Citadel) t
+782658 -247794 M
+(Outwall) t
+newpath
+381979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 256205 M
+381979 256205 M
+(Level:) t
+417331 256205 M
+(1) t
+427339 256205 M
+(\(0-8/0-10\)) t
+newpath
+380539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 239825 M
+382699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 239825 M
+(Picture) t
+456727 239825 M
+(Here) t
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 2 2
+%%PageBoundingBox: 0 0 576 792
+%%BeginPageSetup
+0.001 0.001 scale
+%%EndPageSetup
+newpath
+20539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+(Centaur) t
+67999 760205 M
+(Cavalry) t
+newpath
+21979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+(Level:) t
+57331 760205 M
+(1) t
+67339 760205 M
+(\(6-8/2-8\)) t
+newpath
+20539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 743825 M
+22699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 743825 M
+(Picture) t
+96727 743825 M
+(Here) t
+newpath
+200539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 760205 M
+381978 760205 M
+(Cyclops) t
+427986 760205 M
+(Berserker) t
+newpath
+201979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 760205 M
+201979 760205 M
+(Level:) t
+237331 760205 M
+(1) t
+247339 760205 M
+(\(10-6/1-6\)) t
+newpath
+200539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 743825 M
+202699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 743825 M
+(Picture) t
+276727 743825 M
+(Here) t
+newpath
+380539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 760205 M
+741978 760205 M
+(Satyr) t
+773322 760205 M
+(Scout) t
+newpath
+381979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 760205 M
+381979 760205 M
+(Level:) t
+417331 760205 M
+(1) t
+427339 760205 M
+(\(4-4/3-4\)) t
+newpath
+380539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 743825 M
+382699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 743825 M
+(Picture) t
+456727 743825 M
+(Here) t
+newpath
+20539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 256206 M
+21979 256206 M
+(Daedalus') t
+78295 256206 M
+(Gunboat) t
+newpath
+21979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 508205 M
+21979 508205 M
+(Level:) t
+57331 508205 M
+(1) t
+67339 508205 M
+(\(6-6/3-8\)) t
+newpath
+20539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 491825 M
+22699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 491825 M
+(Picture) t
+96727 491825 M
+(Here) t
+newpath
+200539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 256206 M
+381978 256206 M
+(Achilles) t
+newpath
+201979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 508205 M
+201979 508205 M
+(Level:) t
+237331 508205 M
+(1) t
+247339 508205 M
+(\(12-12/1-10\)) t
+newpath
+200539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 491825 M
+202699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 491825 M
+(Picture) t
+276727 491825 M
+(Here) t
+newpath
+380539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 256206 M
+741978 256206 M
+(Ajax) t
+newpath
+381979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 508205 M
+381979 508205 M
+(Level:) t
+417331 508205 M
+(1) t
+427339 508205 M
+(\(10-10/1-10\)) t
+newpath
+380539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 491825 M
+382699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 491825 M
+(Picture) t
+456727 491825 M
+(Here) t
+newpath
+20539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 -247794 M
+21979 -247794 M
+(Agamemnon) t
+newpath
+21979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 256205 M
+21979 256205 M
+(Level:) t
+57331 256205 M
+(1) t
+67339 256205 M
+(\(8-8/1-8\)) t
+newpath
+20539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 239825 M
+22699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 239825 M
+(Picture) t
+96727 239825 M
+(Here) t
+newpath
+200539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 -247794 M
+381978 -247794 M
+(Odysseus) t
+newpath
+201979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 256205 M
+201979 256205 M
+(Level:) t
+237331 256205 M
+(1) t
+247339 256205 M
+(\(8-8/2-6\)) t
+newpath
+200539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 239825 M
+202699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 239825 M
+(Picture) t
+276727 239825 M
+(Here) t
+newpath
+380539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 -247794 M
+741978 -247794 M
+(Theseus) t
+newpath
+381979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 256205 M
+381979 256205 M
+(Level:) t
+417331 256205 M
+(1) t
+427339 256205 M
+(\(6-6/1-6\)) t
+newpath
+380539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 239825 M
+382699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 239825 M
+(Picture) t
+456727 239825 M
+(Here) t
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 3 3
+%%PageBoundingBox: 0 0 576 792
+%%BeginPageSetup
+0.001 0.001 scale
+%%EndPageSetup
+newpath
+20539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+(Autolycus) t
+newpath
+21979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+(Level:) t
+57331 760205 M
+(1) t
+67339 760205 M
+(\(4-2/2-4\)) t
+newpath
+20539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 743825 M
+22699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 743825 M
+(Picture) t
+96727 743825 M
+(Here) t
+newpath
+200539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 760205 M
+381978 760205 M
+(Medea) t
+newpath
+201979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 760205 M
+201979 760205 M
+(Level:) t
+237331 760205 M
+(1) t
+247339 760205 M
+(\(4-4/1-4\)) t
+newpath
+200539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 743825 M
+202699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 743825 M
+(Picture) t
+276727 743825 M
+(Here) t
+newpath
+380539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 760205 M
+741978 760205 M
+(Medusa) t
+newpath
+381979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 760205 M
+381979 760205 M
+(Level:) t
+417331 760205 M
+(1) t
+427339 760205 M
+(\(6-4/1-6\)) t
+newpath
+380539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 743825 M
+382699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 743825 M
+(Picture) t
+456727 743825 M
+(Here) t
+newpath
+20539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 256206 M
+21979 256206 M
+(Harpies) t
+newpath
+21979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 508205 M
+21979 508205 M
+(Level:) t
+57331 508205 M
+(1) t
+67339 508205 M
+(\(6-4/3-4\)) t
+newpath
+20539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 491825 M
+22699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 491825 M
+(Picture) t
+96727 491825 M
+(Here) t
+newpath
+200539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 256206 M
+381978 256206 M
+(Scylla) t
+newpath
+201979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 508205 M
+201979 508205 M
+(Level:) t
+237331 508205 M
+(1) t
+247339 508205 M
+(\(8-4/2-6\)) t
+newpath
+200539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 491825 M
+202699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 491825 M
+(Picture) t
+276727 491825 M
+(Here) t
+newpath
+380539 519461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 519461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 266021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 266022 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 229302 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 256206 M
+741978 256206 M
+(Charybdis) t
+newpath
+381979 518741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 503081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 508205 M
+381979 508205 M
+(Level:) t
+417331 508205 M
+(1) t
+427339 508205 M
+(\(4-8/2-6\)) t
+newpath
+380539 503081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 503081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 503081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 486701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 491825 M
+382699 491825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 491825 M
+(Picture) t
+456727 491825 M
+(Here) t
+newpath
+20539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 -247794 M
+21979 -247794 M
+(Hydra) t
+newpath
+21979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 256205 M
+21979 256205 M
+(Level:) t
+57331 256205 M
+(1) t
+67339 256205 M
+(\(2-2/1-8\)) t
+newpath
+20539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 239825 M
+22699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 239825 M
+(Picture) t
+96727 239825 M
+(Here) t
+newpath
+200539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 -247794 M
+381978 -247794 M
+(Chimaera) t
+newpath
+201979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 256205 M
+201979 256205 M
+(Level:) t
+237331 256205 M
+(1) t
+247339 256205 M
+(\(*-*/1-6\)) t
+newpath
+200539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 239825 M
+202699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 239825 M
+(Picture) t
+276727 239825 M
+(Here) t
+newpath
+380539 267461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 267461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 14021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 -237978 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 -274698 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 -247794 M
+741978 -247794 M
+(Sphinx) t
+newpath
+381979 266741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 251081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 256205 M
+381979 256205 M
+(Level:) t
+417331 256205 M
+(1) t
+427339 256205 M
+(\(2-6/1-6\)) t
+newpath
+380539 251081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 251081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 251081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 234701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 239825 M
+382699 239825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 239825 M
+(Picture) t
+456727 239825 M
+(Here) t
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 4 4
+%%PageBoundingBox: 0 0 576 792
+%%BeginPageSetup
+0.001 0.001 scale
+%%EndPageSetup
+newpath
+20539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+20539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+201979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+21979 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+21979 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+(Orion) t
+newpath
+21979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+21979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+21979 760205 M
+21979 760205 M
+(Level:) t
+57331 760205 M
+(1) t
+67339 760205 M
+(\(6-6/1-6\)) t
+newpath
+20539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+20539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+20539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+20539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+22699 743825 M
+22699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+56047 743825 M
+(Picture) t
+96727 743825 M
+(Here) t
+newpath
+200539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+200539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+381978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+381978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381978 760205 M
+381978 760205 M
+(Athenian) t
+432678 760205 M
+(Brigade) t
+newpath
+201979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+201979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+201979 760205 M
+201979 760205 M
+(Level:) t
+237331 760205 M
+(1) t
+247339 760205 M
+(\(4-4/1-4\)) t
+newpath
+200539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+200539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+200539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+200539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+202699 743825 M
+202699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+236047 743825 M
+(Picture) t
+276727 743825 M
+(Here) t
+newpath
+380539 771461 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+380539 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+561979 771461 M
+0 -253440 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 518021 M
+181440 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+741978 770021 178560 -36720 re
+0.93333334 1.0 0.93333334 setrgbcolor
+fill
+newpath
+741978 733301 M
+178560 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+741978 760205 M
+741978 760205 M
+(Spearmen) t
+newpath
+381979 770741 179280 -15660 re
+0.93333334 0.93333334 1.0 setrgbcolor
+fill
+newpath
+381979 755081 M
+179280 0 rlineto
+720 setlinewidth
+0 setlinecap
+0.0 0.0 0.0 setrgbcolor
+stroke
+381979 760205 M
+381979 760205 M
+(Level:) t
+417331 760205 M
+(1) t
+427339 760205 M
+(\(6-4/1-4\)) t
+newpath
+380539 755081 180000 -16380 re
+1.0 0.93333334 0.93333334 setrgbcolor
+fill
+newpath
+380539 755081 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+1.0 0.0 0.0 setrgbcolor
+stroke
+newpath
+380539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+560539 755081 M
+0 -16380 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+newpath
+380539 738701 M
+180000 0 rlineto
+720 setlinewidth
+0 setlinecap
+stroke
+382699 743825 M
+382699 743825 M
+0.0 0.0 0.0 setrgbcolor
+(Insert) t
+416047 743825 M
+(Picture) t
+456727 743825 M
+(Here) t
+showpage
+%%PageTrailer
+%%EndPage
+%%Trailer
+%%Pages: 4
+%%EOF

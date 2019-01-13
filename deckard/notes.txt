@@ -1,0 +1,67 @@
+Decks:
+    View modes:
+	- stacked deck
+	    - face up
+	    - face down
+	- hand mode
+	    - overlapping (on table)
+	    - separate window (torn off)
+
+    Management:
+	- backed by Deck class, which is basically a list of Cards + some
+	  metadata (title, etc.)
+	- Multiple "view" classes, which are just different renderings of
+	  the same Deck (Card list)
+	- Can alter Deck view mode by replacing render class
+	- Intra-client comms only transmit changes to Deck contents, and
+	  perhaps share an initial layout
+	- Each client maintains its own separate view state
+
+    So:
+	Deck:
+	    - Deck.cards = { }
+	    - Deck.title = ""
+	    - Deck.back_image = "" [?]
+	    - Deck.view = [instance of a DeckWidget?]
+
+	Deck views:
+	    - def DeckWidget(wxObject)
+	    - def StackedDeck(DeckWidget)
+		- StackedDeck.face_up = 1 or 0
+	    - def OverLappingDeck(DeckWidget)
+		- OverLappingDeck.face_up = 1 or 0
+		- OverLappingDeck.offset = 15 [percentage]
+		- OverLappingDeck.num_visible = 5 [< 1 => all]
+	    - def FloatingDeck(DeckWidget)
+		- Is this required? Might just allow any component to float
+		  by creating a separate table for it in a new frame
+
+Analagous system for Cards:
+    Card:
+	- Card.title = ""
+	- Card.description = ""
+	- Card.image_file = ""
+	- Card.back_image_file = ""
+	- Card.image = [raster object?]
+	- Card.back_image = [raster object?] [optional?]
+	- Card.attrs = { }
+    CardWidget:
+	- def CardWidget(wxObject)
+	- CardWidget.face_up = 1 or 0
+	- CardWidget.coords = (x, y)
+
+
+Table might need to be updated:
+    - allow multiple tables
+    - each table has a frame parent
+    - can resize
+
+Hand and Table:
+	- These two should probably be derived from the same class (Surface?) 
+	  with different LayoutManagers. A Hand would have the LinearManager 
+	  and the Table would be a UserLayout.
+	- What's a layout manager? A class that handles figuring out where to draw
+	  all the cards, decks, dice, and counters that are on a surface. Hands
+	  would only allow cards to be laid out in a line. A Table would allow
+	  cards to be across the whole drawing surface. A Grid layout would allow
+	  for cards to be placed on a snapped X-Y grid.

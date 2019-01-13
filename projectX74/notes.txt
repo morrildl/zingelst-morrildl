@@ -1,0 +1,33 @@
+- collision detection
+- object model
+- world generation; object placement & motion model
+- map data files (XML)
+- weapons system object model
+- weapons motion & placement engine
+- sound engine
+- network
+- game input
+- enemy AI
+
+
+Sequence:
+Immediate:
+P - 3D model loading -> get a model into OGL as a class
+P - world generation
+S - game input
+S - rudimentary AI (loops, patterns, if switches, etc.)
+
+Intermediate:
+- collision detection
+- map data files (rudimentary)
+- brainstorm on network issues
+- weapons obj model
+- explore sound
+- weapons motion & placement
+
+Longterm:
+- visual effects
+- sound effects
+- explore more complex AI
+- full-on map data files
+- network

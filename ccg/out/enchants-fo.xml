@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"><fo:layout-master-set><fo:simple-page-master master-name="my-page"><fo:region-body margin="0.75cm"/></fo:simple-page-master></fo:layout-master-set><fo:page-sequence master-reference="my-page"><fo:flow flow-name="xsl-region-body"><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Aegis</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="0.26in" position="absolute"><fo:block>
+				Level: 3</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="0.26in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="1.76in" position="absolute"><fo:block>
+	Add 3 to unit's counterattack rolls.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block>Sirens' Nest</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block>
+				Level: 5</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="0.26in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="1.76in" position="absolute"><fo:block>
+	All opposing units that Traverse or Enter any adjacent land must move
+	to the land with the Nest; if the Nest land is occupied by an opposing
+	enemy, the unit must use all its available APs to attack an enemy in
+	the land in an attempt to enter (attacker may choose)
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Iron Hoplon</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="0.26in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="1.76in" position="absolute"><fo:block>
+	Add 1 to unit's current and max LP.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>Oedipus' Curse</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 6</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="5.27in" position="absolute"><fo:block>
+	Unit puts out its eyes in despair: its attack and defense dice both
+	drop to 2, or are unchanged if already lower than 2.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Strength of Herakles</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 3</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="5.27in" position="absolute"><fo:block>
+	Target's attack die increases by 4.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Fate of Prometheus</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 4</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="5.27in" position="absolute"><fo:block>
+	Target unit loses 1 LP per turn until it dies.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Medea's Spell</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 4</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="8.78in" position="absolute"><fo:block>
+	Target unit gains +4 to current and max LP.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Archimedes' Screw</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 3</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="8.78in" position="absolute"><fo:block>
+	Changes any land to a water land. Any effects or Mantras that the land
+	might already have remain in effect, but the land is otherwise handled
+	as if it were a water. Any non-water units residing on the land are
+	instantly killed.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Drought</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 2</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="8.78in" position="absolute"><fo:block>
+	Changes target water land into a normal land. Any other effects or
+	Mantras remain in effect, but the land is otherwise handled as if it
+	were a normal land.
+	</fo:block></fo:block-container><fo:block break-after="page"/><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Narcissism</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="0.26in" position="absolute"><fo:block>
+				Level: 2</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="0.26in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="1.76in" position="absolute"><fo:block>
+	At the beginning of each turn, target unit defends against itself.  No
+	damage is taken, but if the roll did not result in a counterattack,
+	unit spends the turn staring at its reflection and may not
+	use APs that turn.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block>Pyrrhic Victory</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block>
+				Level: 2</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="0.26in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="1.76in" position="absolute"><fo:block>
+	Each time target unit does damage in an attack or a counterattack,
+	subtract one from its current LP.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Greek Fire</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block>
+				Level: 4</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="0.26in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="1.76in" position="absolute"><fo:block>
+	Unit takes 4 points of damage per turn until it Enters or Traverses a
+	water card, or Enters a normal land adjacent to a water card.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>Hermes' Favor</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="5.27in" position="absolute"><fo:block>
+	Units mustered on target land muster immediately (no muster delay.)
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Poseidon's Trident</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 2</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="5.27in" position="absolute"><fo:block>
+	Target unit gains +1 to attack rolls and becomes a water unit.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Spartan Judgement</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 3</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="5.27in" position="absolute"><fo:block>
+	If the unit ever has less than or equal to half its max LP, it is
+	immediately executed.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Encroaching Desert</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="8.78in" position="absolute"><fo:block>
+	All water cards in play become normal lands until this Mantra is
+	removed from play. Cards that create water lands or cards may be played,
+	but will have no effect until this Mantra is removed from play.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Persephone's Sacrifice</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="8.78in" position="absolute"><fo:block>
+	The player using this Mantra sacrifices one unit under his control
+	and removes it from play. That unit's current LP are added to the
+	current LP of any other unit in play.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Charon's Fee</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 3</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="8.78in" position="absolute"><fo:block>Target player must discard three cards at random.</fo:block></fo:block-container><fo:block break-after="page"/><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Wrath of Zeus</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="0.26in" position="absolute"><fo:block>
+				Level: 5</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="1.76in" position="absolute"><fo:block>
+	Target unit defends against d20; ignore any counterattack.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block>Hermes' Footsteps</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="1.76in" position="absolute"><fo:block>
+	Immediately move target unit 1 square in any cardinal direction.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Hera's Jealousy</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block>
+				Level: 4</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="1.76in" position="absolute"><fo:block>
+	Unit is removed from play, and the card is returned to the controlling
+	player's hand.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>Perseus' Gift</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 4</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="5.27in" position="absolute"><fo:block>
+	Target unit defends against d6, or is turned to stone and destroyed.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Archimedes' Mirror</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="5.27in" position="absolute"><fo:block>
+	Target unit defends against d6; ignore counterattack damage.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Blessing of the Phoenix</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="5.27in" position="absolute"><fo:block>
+	Player reciting this Mantra may select any discarded unit and add it to
+	his hand.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Trojan Horse</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="8.78in" position="absolute"><fo:block>
+	Played during an attack: attacker ignores any counterattack that might
+	result.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Benediction of Ares</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 2</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="8.78in" position="absolute"><fo:block>
+	Add d6 to an attacking unit's attack score, or to a defending unit's
+	defense score for the duration of the skirmish.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Orpheus' Song</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 2</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="8.78in" position="absolute"><fo:block>
+	No units may use APs for remainder of current turn and entire next turn.
+	</fo:block></fo:block-container><fo:block break-after="page"/><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Hippocratic Treatment</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="0.26in" position="absolute"><fo:block>
+				Level: 3</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="1.76in" position="absolute"><fo:block>
+	Unit's current LP are restored to its full LP.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block/></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="1.76in" position="absolute"><fo:block>
+	Unit becomes confused and may not use any APs on its player's next
+	turn.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Eurythna</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="1.76in" position="absolute"><fo:block>
+	Unit defends against itself (own attack vs. own defense); if this
+	results in counterdamage, unit is adjudged a failure and is destroyed.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>Commend to Hades</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="5.27in" position="absolute"><fo:block>
+	Remove any land from play; a gap remains in the board thereafter. All
+	units on the land are destroyed.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Fate of Atlantis</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="5.27in" position="absolute"><fo:block>
+	Each player chooses a unit in play, if he has any; all other units are
+	destroyed. Remove all lands from play, restore them to the land deck,
+	reshuffle, and produce a new landscape as if the game were starting
+	anew. All land enchantments are discarded. Citadel LP and surviving
+	unit's current LP are preserved.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Demiurgic Whim</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="5.27in" position="absolute"><fo:block>
+	Swap any land with a spare land from the land deck.  If no extra lands
+	are available, swap any two lands. All creature locations and
+	enchantments remain in play. Ownership remain unchanged by position.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Intercept Mantra</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="8.78in" position="absolute"><fo:block>
+	Blocks an enchantment or instant being cast.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Dispel Mantra</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="8.78in" position="absolute"><fo:block>
+	Removes a successfully cast enchantment from play.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Redirect Mantra</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="8.78in" position="absolute"><fo:block>
+	Alters the target of any Mantra being cast.
+	</fo:block></fo:block-container><fo:block break-after="page"/><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Demeter's Whim</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="1.76in" position="absolute"><fo:block>
+	Take control of any land that has no units on it.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="0.01in" position="absolute"><fo:block>Eye of Argus</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="1.76in" position="absolute"><fo:block>
+	Examine target player's hand.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="0.01in" position="absolute"><fo:block>Olympean Upheaval</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="0.26in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="1.76in" position="absolute"><fo:block>
+	Remove all enchantments from play.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="3.5199999999999996in" position="absolute"><fo:block>Olympic Challenge</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="5.27in" position="absolute"><fo:block>
+	Each player selects up to three units. Roll each unit's attack die 
+	and take the sum. The player with the lowest attack sum must dicard 
+	three cards at random.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="3.5199999999999996in" position="absolute"><fo:block>Athenian Wisdom</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="5.27in" position="absolute"><fo:block>
+	Player may draw an extra card this turn.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="3.51in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="3.5199999999999996in" position="absolute"><fo:block>Athenian Disfavor</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="3.7699999999999996in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="3.7699999999999996in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="4.02in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="5.27in" position="absolute"><fo:block>
+	Target player discards 1d4 cards at random.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="7.029999999999999in" position="absolute"><fo:block>Aura of Poseiden</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="8.78in" position="absolute"><fo:block>
+	Target unit becomes a water unit.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="2.51in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="2.5199999999999996in" top="7.029999999999999in" position="absolute"><fo:block>Cupid's Curse</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="2.5199999999999996in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="3.7699999999999996in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="2.5199999999999996in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="2.5199999999999996in" top="8.78in" position="absolute"><fo:block>
+	Player takes control of target unit.
+	</fo:block></fo:block-container><fo:block-container border="solid blue 0.01in" width="2.5in" left="5.02in" height="3.5in" top="7.02in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="5.029999999999999in" top="7.029999999999999in" position="absolute"><fo:block>Boon of the Gods</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="5.029999999999999in" top="7.279999999999999in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="6.279999999999999in" top="7.279999999999999in" position="absolute"><fo:block text-align="right">Fast 
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="5.029999999999999in" top="7.529999999999999in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="5.029999999999999in" top="8.78in" position="absolute"><fo:block>
+	Remove one enchantment or unit from play or alternatively, 
+	place one unit or enchantment from the discard pile into your hand.
+	</fo:block></fo:block-container><fo:block break-after="page"/><fo:block-container border="solid blue 0.01in" width="2.5in" left="0in" height="3.5in" top="0in" position="absolute"/><fo:block-container background-color="#99ff99" display-align="center" height="0.25in" width="2.48in" left="0.01in" top="0.01in" position="absolute"><fo:block>Apollo's Protection</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="2.48in" height="0.25in" left="0.01in" top="0.26in" position="absolute"><fo:block>
+				Level: 1</fo:block></fo:block-container><fo:block-container background-color="#9999ff" display-align="center" width="1.20in" height="0.25in" left="1.26in" top="0.26in" position="absolute"><fo:block text-align="right">
+				Mantra
+			    </fo:block></fo:block-container><fo:block-container background-color="#ff9999" height="1.25in" width="2.48in" left="0.01in" top="0.51in" position="absolute"><fo:block display-align="center" text-align="center">
+				Insert Picture Here
+			    </fo:block></fo:block-container><fo:block-container background-color="#ffff99" display-align="center" height="1.73in" width="2.48in" left="0.01in" top="1.76in" position="absolute"><fo:block>
+	Remove all enchantments from target unit. No further enchantments can 
+	be played on this unit until Apollo's Protection is removed.
+	</fo:block></fo:block-container></fo:flow></fo:page-sequence></fo:root>
